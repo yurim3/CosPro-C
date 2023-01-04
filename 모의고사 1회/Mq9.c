@@ -23,6 +23,6 @@ char* solution(char* characters) {
 	void main() {
 		char* characters = "seeennteeeenccccceeee";
 		char* result = solution(characters);
-		printf("%s \n", result);
+		printf("%s", result);
 		return 0;
 	}

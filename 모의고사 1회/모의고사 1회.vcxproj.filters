@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Mq10.c">
+    <ClCompile Include="Mq9.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
