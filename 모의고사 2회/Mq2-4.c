@@ -1,6 +1,11 @@
 #include <string.h>
 #include <stdlib.h>
 #include <stdio.h>
+/* 85점 ~ 100점 : A 학점
+   70점 ~ 84점 : B 학점
+   55점 ~ 69점 : C 학점
+   40점 ~ 54점 : D 학점
+    0점 ~ 39점 : F 학점 */
 
 int* solution(int scores[], int scores_len) {
 	int* grade_counter = (int*)malloc(sizeof(int) * 5); //각 학점을 받은 사람의 개수를 세는 배열?
