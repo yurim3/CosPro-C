@@ -15,7 +15,7 @@ int solution(char* name_list[], int name_list_len) {
 
 void main() {
 	int ans;
-	char* names[] = { "james", "luke", "oliver", "jack" };
+	char* names[] = { "lames", "luke", "oliver", "jack" };
 	ans = solution(names, 4);
 	printf("%d", ans);
 }
