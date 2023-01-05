@@ -18,7 +18,7 @@ int* solution(int scores[][4], int scores_len) {
 	for (int i = 0; i < 4; i++) {
 		result[i] = 0;
 		for (int k = 0; k < 4; k++) {
-			if (i != k) {
+			if (i != k) { //<=> i == k일 때는 자기 자신팀을 만났다는 것을 의미함?
 				result[i] += (scores[i][k] * 2);
 			}
 		}
