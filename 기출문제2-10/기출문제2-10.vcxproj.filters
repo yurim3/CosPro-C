@@ -14,12 +14,9 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
-<<<<<<< HEAD
-=======
   <ItemGroup>
-    <ClCompile Include="Q2-3.c">
+    <ClCompile Include="Q2-10.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
->>>>>>> 2bb2608dd1e031020f36eff09d7adca28be162ae
 </Project>

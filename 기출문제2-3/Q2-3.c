@@ -33,7 +33,11 @@ int solution(int visitor[], int n) {
 	return answer;
 }
 
+<<<<<<< HEAD
 void main() {
+=======
+int main(void) {
+>>>>>>> 2bb2608dd1e031020f36eff09d7adca28be162ae
 	int ans;
 	int v[] = { 4, 7, 2, 9, 3 };
 	ans = solution(v, 5);
