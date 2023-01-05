@@ -1,6 +1,9 @@
 #include <string.h>
 #include <stdlib.h>
 #include <stdio.h>
+/* 각 부서에서 신청하는 예산을 회사 총 예산 내에서 신청한 액수만큼 배정합니다.
+   모든 신청 예산이 배정될 수 있는 경우에는 요청한 금액을 그대로 배정.
+   모든 신청 예산을 배정할 수 없는 경우에는 같은 금액을 배정. */
 
 int func_a(int arr[], int len) { //합계 구하는 함수
 	int total = 0;
